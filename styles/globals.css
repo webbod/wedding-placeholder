@@ -33,3 +33,26 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.desktop {
+  margin: 3rem;
+  max-height: 80vh;
+  width: 80vw;
+}
+
+.mobile {
+  display: none;
+  height: 90vh;
+  margin: 3rem;
+  max-width: 80%;
+}
+
+@media (max-width: 767px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
