@@ -12,8 +12,10 @@ export default function Home() {
 
       <main>
         <Header title="" />
-        <img src="placeholder.svg" class="desktop"/>
-        <img src="placeholder_mobile.svg" class="mobile"/>
+        <a href='https://forms.gle/UjrEBFBv8MDsnKcV9'>
+          <img src="placeholder.svg" class="desktop"/>
+          <img src="placeholder_mobile.svg" class="mobile"/>
+        </a>
       </main>
 
       <Footer />
